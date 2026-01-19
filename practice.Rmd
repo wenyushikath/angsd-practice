@@ -1,6 +1,6 @@
 ---
-title: "Untitled"
-author: "Author"
+title: "ANGST Practice"
+author: "Wenyu Shi"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output: 
   html_document: 
@@ -33,7 +33,7 @@ It is helpful to declare all libraries needed by a document near the top.
 One may also want the chunk set to `warning=FALSE`, to avoid extra noise.
 -->
 
-```{r libs, message=FALSE}
+```{r libs, message=FALSE, warning=FALSE}
 library(magrittr)
 library(tidyverse)
 ```
